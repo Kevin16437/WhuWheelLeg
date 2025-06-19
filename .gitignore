@@ -1,0 +1,62 @@
+# 编译生成的文件
+Debug/
+*.elf
+*.hex
+*.map
+*.mdf
+*.o
+*.d
+*.opt
+makefile
+sources.mk
+
+# 临时文件
+temp.txt
+*.tmp
+*.bak
+
+# IDE配置文件（保留部分）
+.ads/
+.settings/
+
+# 批处理文件
+*.bat
+
+# 日志文件
+*.log
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 用户特定配置
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+
+# 备份文件
+*~
+*.swp
+*.swo
+
+# 编译器特定文件
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+
+# TASKING编译器文件
+*.lsl.bak
+*.err
+*.lst
+*.src
+*.dep
+*.mk
+
+# 其他
+.vscode/settings.json
